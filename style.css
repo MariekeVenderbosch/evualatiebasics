@@ -1,1 +1,46 @@
-/*# sourceMappingURL=style.css.map */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px; /* change this */
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+.nav-layout {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 25px;
+}
+
+.navlinks-layout1 {
+  display: flex;
+  gap: 1em;
+  margin-top: 25px;
+}
+
+.navlinks-layout2 {
+  display: flex;
+  gap: 1em;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 175px;
+  position: absolute;
+  top: -10px;
+  left: 45%;
+  margin-top: 10px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #000000;
+  margin-top: 45px;
+}/*# sourceMappingURL=style.css.map */
